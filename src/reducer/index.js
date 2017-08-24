@@ -166,6 +166,5 @@ export const store = createStore(
 		currentUser,
 		searchArt,
 		userList
-	}),
-	applyMiddleware(logger)
+	})
 )
