@@ -1,5 +1,5 @@
 
-const fetch = 'http://localhost:8080';
+const fetch = 'http://list.leelongxi.cn';
 
 //发布文章url
 export const adminPost = `${fetch}/admin/post`;
