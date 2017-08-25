@@ -119,7 +119,7 @@ class ArcticleAdd extends Component{
 						        </FormItem>
 						        <FormItem>
 						          {getFieldDecorator('image',{
-								       rules: [{ required: true, message: '不能为空!' }],
+								       rules: [{ required: false, message: '不能为空!' }],
 								    })(
 						          	<div style={styles.inputcon}>
 						          		<i style={styles.i}>背景图片 : </i>
@@ -131,7 +131,7 @@ class ArcticleAdd extends Component{
 						    <div style={styles.inline}>
 						        <FormItem>
 						          {getFieldDecorator('tag_01',{
-								       rules: [{ required: true, message: '不能为空!' }],
+								       rules: [{ required: false, message: '不能为空!' }],
 								    })(
 						          	<div style={styles.inputcon}>
 						          		<i style={styles.i}>文章标签 : </i>
@@ -141,7 +141,7 @@ class ArcticleAdd extends Component{
 						        </FormItem>
 						        <FormItem>
 						          {getFieldDecorator('tag_02',{
-								       rules: [{ required: true }],
+								       rules: [{ required: false ,message: '不能为空!'}],
 								    })(
 								    	<div style={styles.inputcon}>
 								    		<i style={styles.is}>文章标签 : </i>
@@ -151,7 +151,7 @@ class ArcticleAdd extends Component{
 						        </FormItem>
 						        <FormItem>
 						          {getFieldDecorator('tag_03',{
-								       rules: [{ required: true }],
+								       rules: [{ required: false,message: '不能为空!' }],
 								    })(
 								    	<div style={styles.inputcon}>
 								    		<i style={styles.is}>文章标签 : </i>
